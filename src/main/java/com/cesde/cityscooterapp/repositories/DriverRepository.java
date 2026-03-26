@@ -11,7 +11,7 @@ import java.util.List;
 public class DriverRepository {
 
 
-    List<Driver> drivers = new ArrayList<>(
+    public List<Driver> drivers = new ArrayList<>(
 
             new ArrayList<>()
 
@@ -23,6 +23,12 @@ public class DriverRepository {
             return driver;
         }
 
+        public Driver FindById(int id){
+            return drivers.stream()
+                    .filter(driver -> driver.getId() == id)
+                    .findFirst()
+                    .orElse(null);
 
+        }
 
 }

@@ -23,4 +23,10 @@ public class DriverController {
     }
 
 
+    @GetMapping("/{id}")
+    Driver getDriverById(@PathVariable int id) {
+        return driverService. getDriverById(id).orElse(null);
+
+    }
+
 }
