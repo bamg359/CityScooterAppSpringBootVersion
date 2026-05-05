@@ -1,4 +1,4 @@
-package com.cesde.cityscooterapp.repositories;
+package com.cesde.cityscooterapp.infrastructure.out.adapter;
 
 import com.cesde.cityscooterapp.domain.User;
 import org.springframework.stereotype.Repository;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class UserRepository {
+public class UserRepositoryImpl {
 
     List<User> users = new ArrayList<>(
 

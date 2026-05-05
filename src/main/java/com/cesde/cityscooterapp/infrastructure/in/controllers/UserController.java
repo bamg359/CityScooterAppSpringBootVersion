@@ -1,8 +1,8 @@
-package com.cesde.cityscooterapp.controllers;
+package com.cesde.cityscooterapp.infrastructure.in.controllers;
 
 
 import com.cesde.cityscooterapp.domain.User;
-import com.cesde.cityscooterapp.services.UserService;
+import com.cesde.cityscooterapp.application.inpurport.UserService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

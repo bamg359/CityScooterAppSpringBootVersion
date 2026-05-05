@@ -1,8 +1,11 @@
-package com.cesde.cityscooterapp.controllers;
+package com.cesde.cityscooterapp.infrastructure.in.controllers;
 
 import com.cesde.cityscooterapp.domain.Employee;
-import com.cesde.cityscooterapp.services.EmployeeService;
-import org.springframework.web.bind.annotation.*;
+import com.cesde.cityscooterapp.application.inpurport.EmployeeService;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController

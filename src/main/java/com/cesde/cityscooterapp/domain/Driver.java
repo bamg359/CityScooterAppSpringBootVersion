@@ -4,6 +4,7 @@ import com.cesde.cityscooterapp.domain.enums.IsPenalizedEnum;
 import com.cesde.cityscooterapp.domain.enums.TypeDriverEnum;
 
 public class Driver extends User{
+
      private TypeDriverEnum typeDriver;
      private  Integer points;
      private IsPenalizedEnum isPenalized;

@@ -1,4 +1,4 @@
-package com.cesde.cityscooterapp.services;
+package com.cesde.cityscooterapp.application.inpurport;
 import com.cesde.cityscooterapp.domain.User;
 
 public interface UserService {
