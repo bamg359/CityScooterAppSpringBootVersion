@@ -17,6 +17,12 @@ public class DriverUseCaseImp implements DriverUseCase {
 
 
 
+    //public DriverUseCaseImp(DriverPersistencePort driverPersistencePort){
+      //  this.driverPersistencePort = driverPersistencePort;
+    //}
+
+
+
     @Override
     public Driver createrDriver(Driver driver) {
 

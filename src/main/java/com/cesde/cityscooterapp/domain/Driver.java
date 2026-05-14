@@ -13,14 +13,14 @@ public class Driver extends User{
          super();
     }
 
-     public Driver(TypeDriverEnum typeDriver, Integer points, IsPenalizedEnum isPenalized) {
-          this.typeDriver = typeDriver;
-          this.points = points;
-          this.isPenalized = isPenalized;
-     }
+    public Driver(int id, String name, String lastName, String phone, String email, String password, boolean status, TypeDriverEnum typeDriver, Integer points, IsPenalizedEnum isPenalized) {
+        super(id, name, lastName, phone, email, password, status);
+        this.typeDriver = typeDriver;
+        this.points = points;
+        this.isPenalized = isPenalized;
+    }
 
-
-     public TypeDriverEnum getTypeDriver() {
+    public TypeDriverEnum getTypeDriver() {
           return typeDriver;
      }
 
